@@ -21,6 +21,7 @@
 .project-description {
   font-style: italic;
   margin-bottom: 5px;
+  margin-left: 10px;
 }
 
 .project-nav a:not(:last-child):after {
@@ -31,6 +32,10 @@
 
 .project-nav a:not(:last-child):after:hover {
   color: #000;
+}
+
+.project-nav{
+    margin-left: 50px;
 }
 
 .project {
@@ -44,6 +49,7 @@
 
 .project h4 {
   color: #1D5072;
+  margin-left: 10px;
 }
 
 .logos {
@@ -126,8 +132,8 @@
 
 
 .face-shot {
-  width: 250px;
-  height: 250px;
+  width: 300px;
+  height: 300px;
   margin-right: 50px;
   border: 1px solid gray;
   border-radius: 25%;
